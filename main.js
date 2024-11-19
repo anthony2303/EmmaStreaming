@@ -105,7 +105,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `MichiBot`
+global.authFile = `EmmaBot`
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { }
 const msgRetryCounterCache = new NodeCache()
@@ -274,7 +274,7 @@ if (connection == 'open') {
 console.log(chalk.bold.greenBright(mid.mConexion))}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (reason == 405) {
-await fs.unlinkSync("./GataBotSession/" + "creds.json")
+await fs.unlinkSync("./EmmaBot/" + "creds.json")
 console.log(chalk.bold.redBright(mid.mConexionOFF)) 
 process.send('reset')}
 if (connection === 'close') {
@@ -440,13 +440,13 @@ unlinkSync(filePath)})
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./MichiBot")
+let directorio = readdirSync("./EmmaBot")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./GataBotSession/${files}`)
+unlinkSync(`./EmmaBot/${files}`)
 })
 } 
 
@@ -474,7 +474,7 @@ console.log(chalk.bold.red(lenguajeGB.smspurgeSessionSB3() + err))
 }}
 
 function purgeOldFiles() {
-const directories = ['./MichiBot/', './GataJadiBot/']
+const directories = ['./EmmaBot/', './GataJadiBot/']
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
 if (err) throw err
