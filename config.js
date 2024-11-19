@@ -12,12 +12,12 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 global.owner = [
-["584123989549", 'sisket', true], //sisket
-["584123989549", 'sisked', true], //sisked
-["584123989549"]]
+["5218611133462", 'Emma', true], //Emma
+["5218611133462", 'EmmaST', true], //Emma2
+["5215625060788"]]
 
-global.mods = ["584123989549"]
-global.prems = ["584123989549"]
+global.mods = ["5218611133462"]
+global.prems = ["5218611133462"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -112,9 +112,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["584123989549", 'sisket', 1], 
-["584123989549", 'sisked', 1],  
-["584123989549", 'siskedd', 1]]
+["5218611133462", 'Emma', 1], 
+["5218611133462", 'EmmaST', 1],  
+["5218611133462", 'STemma', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -122,8 +122,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
-global.author = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
+global.packname = "𝙀𝙢𝙞𝙡𝙞𝙖𝙣𝙤 𝙎𝙏-𝘽𝙤𝙩"
+global.author = "𝙀𝙢𝙞𝙡𝙞𝙖𝙣𝙤 𝙎𝙏-𝘽𝙤𝙩"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -131,7 +131,7 @@ global.author = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
+global.gt = "𝙀𝙢𝙞𝙡𝙞𝙖𝙣𝙤 𝙎𝙏-𝘽𝙤𝙩"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -157,9 +157,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
-global.igfg = "𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩"
-global.nomorown = "584123989549"
+global.wm = "𝙀𝙢𝙞𝙡𝙞𝙖𝙣𝙤 𝙎𝙏-𝘽𝙤𝙩"
+global.igfg = "𝙀𝙢𝙞𝙡𝙞𝙖𝙣𝙤 𝙎𝙏-𝘽𝙤𝙩"
+global.nomorown = "5218611133462"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
